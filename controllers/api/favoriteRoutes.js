@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Favorite } = require('../../models');
 
-// post a favorite
+// post a favorite here
 router.post('/', async (req, res) => {
     try {
         const favoriteData = await Favorite.create({
