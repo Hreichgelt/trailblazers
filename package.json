@@ -8,8 +8,10 @@
     "start": "node server.js",
     "seed": "node seeds/seed.js",
     "preseed": "node config/init.js",
+    "deploy": "gh-pages-deploy",
     "lint": "npx eslint \"**/*.js\"",
-    "lint:fix": "npx eslint \"**/*.js\" --fix"
+    "lint:fix": "npx eslint \"**/*.js\" --fix",
+    "db:create": "node config/init.js"
   },
   "keywords": [],
   "author": "",
