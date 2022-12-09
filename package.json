@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "homepage": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "seed": "node seeds/seed.js",
     "preseed": "node config/init.js",
     "deploy": "gh-pages-deploy",
+    "predeploy": "npm run build",
     "lint": "npx eslint \"**/*.js\"",
     "lint:fix": "npx eslint \"**/*.js\" --fix",
     "db:create": "node config/init.js"
