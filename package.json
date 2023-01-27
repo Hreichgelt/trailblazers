@@ -13,7 +13,8 @@
     "predeploy": "npm run build",
     "lint": "npx eslint \"**/*.js\"",
     "lint:fix": "npx eslint \"**/*.js\" --fix",
-    "db:create": "node config/init.js"
+    "db:create": "node config/init.js",
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
